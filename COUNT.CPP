@@ -1,0 +1,18 @@
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+ int i,j,max;
+ clrscr();
+ printf("enter the maximum number of integers");
+ scanf("%d",&max);
+ for (i=1;i<=max;i++)
+ {
+ printf ("\n");
+ for(j=1;j<=i;j++)
+ {
+ printf("%d",j);
+ }
+}
+ getch();
+}
