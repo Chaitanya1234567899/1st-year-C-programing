@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+#define rst(a)	(a)*(a)
+void main()
+{
+int i=10,j;
+clrscr();
+j=rst(++i);
+printf("%d",j);
+getch();
+}
+
+
+
+
+
+
+
